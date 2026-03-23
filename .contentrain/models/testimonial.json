@@ -1,0 +1,28 @@
+{
+  "domain": "marketing",
+  "fields": {
+    "avatar": {
+      "type": "image"
+    },
+    "company_name": {
+      "type": "string"
+    },
+    "person_name": {
+      "required": true,
+      "type": "string"
+    },
+    "person_role": {
+      "type": "string"
+    },
+    "quote": {
+      "required": true,
+      "type": "text"
+    },
+    "rating": {
+      "type": "rating"
+    }
+  },
+  "i18n": true,
+  "id": "testimonial",
+  "kind": "collection"
+}

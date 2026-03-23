@@ -1,0 +1,6 @@
+export default {
+  "default_locale": "en",
+  "site_name": "Atlas Goods",
+  "site_tagline": "A modern commerce starter built for campaigns, collections, and product discovery.",
+  "theme_name": "atlas_commerce"
+}

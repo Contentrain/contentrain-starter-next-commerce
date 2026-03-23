@@ -1,0 +1,16 @@
+{
+  "domains": [
+    "system",
+    "commerce",
+    "marketing"
+  ],
+  "locales": {
+    "default": "en",
+    "supported": [
+      "en"
+    ]
+  },
+  "stack": "next",
+  "version": 1,
+  "workflow": "auto-merge"
+}

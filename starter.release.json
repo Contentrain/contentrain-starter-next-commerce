@@ -1,0 +1,18 @@
+{
+  "display_name": "Contentrain Next Commerce",
+  "repository_name": "contentrain-starter-next-commerce",
+  "repository_description": "Next.js commerce starter for campaigns, collections, and product detail storytelling with Contentrain SDK.",
+  "repository_topics": ["contentrain", "nextjs", "starter", "commerce", "app-router", "typescript"],
+  "visibility": "public",
+  "template_repository": true,
+  "framework": "next",
+  "node_version": "22",
+  "package_manager": "pnpm@10.17.0",
+  "install_command": "pnpm install",
+  "check_command": "pnpm check",
+  "build_command": "pnpm build",
+  "preview_command": "pnpm start",
+  "deploy_targets": [
+    { "provider": "vercel", "output": ".next", "command": "pnpm deploy:vercel" }
+  ]
+}

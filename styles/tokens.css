@@ -1,0 +1,52 @@
+:root {
+  --ct-duration-fast: 140ms;
+  --ct-duration-base: 220ms;
+  --ct-duration-slow: 420ms;
+  --ct-easing-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ct-easing-emphasis: cubic-bezier(0.16, 1, 0.3, 1);
+  --ct-space-xs: 0.25rem;
+  --ct-space-sm: 0.5rem;
+  --ct-space-md: 0.75rem;
+  --ct-space-lg: 1rem;
+  --ct-space-xl: 1.5rem;
+  --ct-space-2xl: 2rem;
+  --ct-space-3xl: 3rem;
+  --ct-space-4xl: 4rem;
+  --ct-space-5xl: 6rem;
+  --ct-radius-sm: 0.625rem;
+  --ct-radius-md: 1rem;
+  --ct-radius-lg: 1.5rem;
+  --ct-shadow-soft: 0 12px 40px rgba(17, 17, 17, 0.08);
+  --ct-shadow-card: 0 18px 60px rgba(17, 17, 17, 0.12);
+}
+
+[data-theme="editorial-dawn"] {
+  --ct-color-bg: #f6f1e8;
+  --ct-color-surface: #fffaf2;
+  --ct-color-text: #171411;
+  --ct-color-muted: #6f675f;
+  --ct-color-primary: #8c4b2f;
+  --ct-color-accent: #d4a373;
+  --ct-color-border: #dfd3c3;
+}
+
+[data-theme="signal-saas"] {
+  --ct-color-bg: #f4f7f4;
+  --ct-color-surface: #ffffff;
+  --ct-color-text: #102418;
+  --ct-color-muted: #587160;
+  --ct-color-primary: #0f7b52;
+  --ct-color-accent: #d9f06b;
+  --ct-color-border: #cfe1d5;
+}
+
+[data-theme="atlas-commerce"] {
+  --ct-color-bg: #f7f7f5;
+  --ct-color-surface: #ffffff;
+  --ct-color-text: #111111;
+  --ct-color-muted: #5f5a54;
+  --ct-color-primary: #1f5eff;
+  --ct-color-accent: #ff7a00;
+  --ct-color-border: #ddd8d1;
+}
+

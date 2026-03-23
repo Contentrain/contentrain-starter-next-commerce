@@ -1,0 +1,12 @@
+node_modules
+.astro
+.nuxt
+.next
+.output
+.svelte-kit
+build
+dist
+coverage
+*.tsbuildinfo
+.DS_Store
+.contentrain/.cache/

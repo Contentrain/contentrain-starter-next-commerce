@@ -1,0 +1,196 @@
+{
+  "entries": [
+    {
+      "model": "site-settings",
+      "locale": "en",
+      "data": {
+        "site_name": "Atlas Goods",
+        "site_tagline": "A modern commerce starter built for campaigns, collections, and product discovery.",
+        "default_locale": "en",
+        "theme_name": "atlas_commerce"
+      }
+    },
+    {
+      "model": "navigation",
+      "locale": "en",
+      "data": {
+        "items": [
+          { "label": "Collections", "href": "/collections/featured-collection" },
+          { "label": "Architecture", "href": "/architecture" },
+          { "label": "Flagship PDP", "href": "/products/atlas-travel-jacket" },
+          { "label": "FAQ", "href": "#faq" }
+        ],
+        "cta_label": "Open flagship PDP",
+        "cta_href": "/products/atlas-travel-jacket"
+      }
+    },
+    {
+      "model": "seo-defaults",
+      "locale": "en",
+      "data": {
+        "meta_title": "Atlas Goods",
+        "meta_description": "Commerce starter for merchandising, campaigns, and product detail pages with clearer hierarchy.",
+        "canonical_base": "https://example.com"
+      }
+    },
+    {
+      "model": "footer",
+      "locale": "en",
+      "data": {
+        "blurb": "Built for campaign storytelling, clearer collection pages, and stronger product hierarchy.",
+        "columns": [
+          {
+            "title": "Shop",
+            "links": [
+              { "label": "Collections", "href": "/collections/featured-collection" },
+              { "label": "Architecture", "href": "/architecture" },
+              { "label": "Flagship PDP", "href": "/products/atlas-travel-jacket" }
+            ]
+          },
+          {
+            "title": "Contentrain",
+            "links": [
+              { "label": "SDK", "href": "https://ai.contentrain.io/packages/sdk.html" },
+              { "label": "Docs", "href": "https://docs.contentrain.io/" },
+              { "label": "Studio", "href": "https://studio.contentrain.io/" }
+            ]
+          }
+        ],
+        "legal_notice": "2026 Atlas Goods"
+      }
+    },
+    {
+      "model": "promo-campaign",
+      "locale": "en",
+      "id": "spring-edit",
+      "data": {
+        "title": "Spring Edit",
+        "summary": "Merchandising-first commerce starter for modern product catalogs.",
+        "theme": "accent",
+        "href": "/products/atlas-travel-jacket"
+      }
+    },
+    {
+      "model": "product",
+      "locale": "en",
+      "id": "atlas-travel-jacket",
+      "data": {
+        "name": "Atlas Travel Jacket",
+        "slug": "atlas-travel-jacket",
+        "summary": "Technical outerwear with a sharper editorial presentation.",
+        "description": "A lightweight jacket shaped for travel days, cooler evenings, and layered product photography.\n\nThis starter treats product detail as a content surface, with room for campaign copy and richer product storytelling.",
+        "price_label": "$220",
+        "badge": "Best seller",
+        "primary_image": "https://images.unsplash.com/photo-1578410532485-e017ec847d23?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+        "image_alt": "Black zip-up jacket photographed against a neutral background.",
+        "gallery": [
+          "https://images.unsplash.com/photo-1578410532485-e017ec847d23?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+          "https://images.unsplash.com/photo-1578410532485-e017ec847d23?auto=format&fit=crop&fm=jpg&q=80&w=900"
+        ],
+        "highlights": ["Water-resistant shell", "Travel-ready silhouette", "Campaign-first PDP layout"],
+        "image_credit_label": "Photography: Erik Mclean on Unsplash",
+        "image_credit_href": "https://unsplash.com/photos/black-zip-up-jacket-m1TYgaTVyFM",
+        "featured": true
+      }
+    },
+    {
+      "model": "product",
+      "locale": "en",
+      "id": "studio-everyday-pack",
+      "data": {
+        "name": "Studio Everyday Pack",
+        "slug": "studio-everyday-pack",
+        "summary": "A carry system starter product for denser catalog pages and strong PDP rhythm.",
+        "description": "A structured bag template for showing specs, context, and campaign-driven supporting copy.\n\nIt is useful when a starter needs to demonstrate more than a simple card grid.",
+        "price_label": "$140",
+        "badge": "New arrival",
+        "primary_image": "https://images.unsplash.com/photo-1653491239842-ad464d06c926?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+        "image_alt": "Black backpack hanging against a white wall.",
+        "gallery": [
+          "https://images.unsplash.com/photo-1653491239842-ad464d06c926?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+          "https://images.unsplash.com/photo-1653491239842-ad464d06c926?auto=format&fit=crop&fm=jpg&q=80&w=900"
+        ],
+        "highlights": ["Structured carry profile", "Editorial-ready merchandising", "Dense collection card support"],
+        "image_credit_label": "Photography: Sarah Noltner on Unsplash",
+        "image_credit_href": "https://unsplash.com/photos/a-black-backpack-hanging-on-a-white-wall-7TJO_T1SP_E",
+        "featured": true
+      }
+    },
+    {
+      "model": "product",
+      "locale": "en",
+      "id": "field-notes-hoodie",
+      "data": {
+        "name": "Field Notes Hoodie",
+        "slug": "field-notes-hoodie",
+        "summary": "Soft goods layout that still feels premium and deliberate.",
+        "description": "A softer category with enough structure for campaign and editorial positioning.\n\nThe point is not the garment itself. The point is that the content model can support different merchandising voices.",
+        "price_label": "$98",
+        "badge": "Limited",
+        "primary_image": "https://images.unsplash.com/photo-1651371979536-94e306e2fd50?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+        "image_alt": "Person wearing a blue hoodie outdoors.",
+        "gallery": [
+          "https://images.unsplash.com/photo-1651371979536-94e306e2fd50?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+          "https://images.unsplash.com/photo-1651371979536-94e306e2fd50?auto=format&fit=crop&fm=jpg&q=80&w=900"
+        ],
+        "highlights": ["Soft-goods example SKU", "Editorial lifestyle framing", "Works in mixed category grids"],
+        "image_credit_label": "Photography: Adrian Cosca on Unsplash",
+        "image_credit_href": "https://unsplash.com/photos/a-man-wearing-a-hoodie-WA35X01UmBc",
+        "featured": false
+      }
+    },
+    {
+      "model": "catalog-collection",
+      "locale": "en",
+      "id": "featured-collection",
+      "data": {
+        "name": "Featured collection",
+        "slug": "featured-collection",
+        "summary": "A tighter assortment for campaign-led merchandising with richer visual storytelling baked into the content model.",
+        "featured_products": [
+          "atlas-travel-jacket",
+          "studio-everyday-pack",
+          "field-notes-hoodie"
+        ]
+      }
+    },
+    {
+      "model": "testimonial",
+      "locale": "en",
+      "id": "retail-design-team",
+      "data": {
+        "quote": "The product cards already feel merchandised instead of merely listed.",
+        "person_name": "Retail design team",
+        "person_role": "Commerce Partner"
+      }
+    },
+    {
+      "model": "testimonial",
+      "locale": "en",
+      "id": "growth-lead",
+      "data": {
+        "quote": "This gives a clearer starting point for campaign pages and collection storytelling.",
+        "person_name": "Growth lead",
+        "person_role": "Performance Marketing"
+      }
+    },
+    {
+      "model": "faq-item",
+      "locale": "en",
+      "id": "why-app-router",
+      "data": {
+        "question": "Why Next App Router for commerce?",
+        "answer": "It gives strong deployment defaults, server component rendering, and a clear path toward richer product detail and campaign surfaces."
+      }
+    },
+    {
+      "model": "faq-item",
+      "locale": "en",
+      "id": "what-contentrain-manages",
+      "data": {
+        "question": "What does Contentrain manage here?",
+        "answer": "Campaign messaging, collection composition, product copy, testimonials, navigation, and metadata are all driven from content models."
+      }
+    }
+  ]
+}

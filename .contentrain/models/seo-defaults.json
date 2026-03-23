@@ -1,0 +1,25 @@
+{
+  "domain": "system",
+  "fields": {
+    "canonical_base": {
+      "required": true,
+      "type": "url"
+    },
+    "meta_description": {
+      "max": 180,
+      "required": true,
+      "type": "text"
+    },
+    "meta_title": {
+      "max": 70,
+      "required": true,
+      "type": "string"
+    },
+    "og_image": {
+      "type": "image"
+    }
+  },
+  "i18n": true,
+  "id": "seo-defaults",
+  "kind": "singleton"
+}

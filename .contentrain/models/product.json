@@ -1,0 +1,54 @@
+{
+  "domain": "commerce",
+  "fields": {
+    "badge": {
+      "type": "string"
+    },
+    "description": {
+      "type": "markdown"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "gallery": {
+      "items": "image",
+      "type": "array"
+    },
+    "highlights": {
+      "items": "string",
+      "type": "array"
+    },
+    "image_alt": {
+      "type": "string"
+    },
+    "image_credit_href": {
+      "type": "url"
+    },
+    "image_credit_label": {
+      "type": "string"
+    },
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "price_label": {
+      "required": true,
+      "type": "string"
+    },
+    "primary_image": {
+      "type": "image"
+    },
+    "slug": {
+      "required": true,
+      "type": "slug",
+      "unique": true
+    },
+    "summary": {
+      "required": true,
+      "type": "text"
+    }
+  },
+  "i18n": true,
+  "id": "product",
+  "kind": "collection"
+}

@@ -1,0 +1,24 @@
+{
+  "domain": "commerce",
+  "fields": {
+    "featured_products": {
+      "model": "product",
+      "type": "relations"
+    },
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "slug": {
+      "required": true,
+      "type": "slug",
+      "unique": true
+    },
+    "summary": {
+      "type": "text"
+    }
+  },
+  "i18n": true,
+  "id": "catalog-collection",
+  "kind": "collection"
+}

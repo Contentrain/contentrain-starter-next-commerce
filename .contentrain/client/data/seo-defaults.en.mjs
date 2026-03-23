@@ -1,0 +1,5 @@
+export default {
+  "canonical_base": "https://example.com",
+  "meta_description": "Commerce starter for merchandising, campaigns, and product detail pages with clearer hierarchy.",
+  "meta_title": "Atlas Goods"
+}

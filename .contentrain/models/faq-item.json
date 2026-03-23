@@ -1,0 +1,19 @@
+{
+  "domain": "marketing",
+  "fields": {
+    "answer": {
+      "required": true,
+      "type": "markdown"
+    },
+    "category": {
+      "type": "string"
+    },
+    "question": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  "i18n": true,
+  "id": "faq-item",
+  "kind": "collection"
+}

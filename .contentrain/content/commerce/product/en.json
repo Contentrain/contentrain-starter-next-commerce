@@ -1,0 +1,68 @@
+{
+  "atlas-travel-jacket": {
+    "badge": "Best seller",
+    "description": "A lightweight jacket shaped for travel days, cooler evenings, and layered product photography.\n\nThis starter treats product detail as a content surface, with room for campaign copy and richer product storytelling.",
+    "featured": true,
+    "gallery": [
+      "https://images.unsplash.com/photo-1578410532485-e017ec847d23?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+      "https://images.unsplash.com/photo-1578410532485-e017ec847d23?auto=format&fit=crop&fm=jpg&q=80&w=900"
+    ],
+    "highlights": [
+      "Water-resistant shell",
+      "Travel-ready silhouette",
+      "Campaign-first PDP layout"
+    ],
+    "image_alt": "Black zip-up jacket photographed against a neutral background.",
+    "image_credit_href": "https://unsplash.com/photos/black-zip-up-jacket-m1TYgaTVyFM",
+    "image_credit_label": "Photography: Erik Mclean on Unsplash",
+    "name": "Atlas Travel Jacket",
+    "price_label": "$220",
+    "primary_image": "https://images.unsplash.com/photo-1578410532485-e017ec847d23?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+    "slug": "atlas-travel-jacket",
+    "summary": "Technical outerwear with a sharper editorial presentation."
+  },
+  "field-notes-hoodie": {
+    "badge": "Limited",
+    "description": "A softer category with enough structure for campaign and editorial positioning.\n\nThe point is not the garment itself. The point is that the content model can support different merchandising voices.",
+    "featured": false,
+    "gallery": [
+      "https://images.unsplash.com/photo-1651371979536-94e306e2fd50?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+      "https://images.unsplash.com/photo-1651371979536-94e306e2fd50?auto=format&fit=crop&fm=jpg&q=80&w=900"
+    ],
+    "highlights": [
+      "Soft-goods example SKU",
+      "Editorial lifestyle framing",
+      "Works in mixed category grids"
+    ],
+    "image_alt": "Person wearing a blue hoodie outdoors.",
+    "image_credit_href": "https://unsplash.com/photos/a-man-wearing-a-hoodie-WA35X01UmBc",
+    "image_credit_label": "Photography: Adrian Cosca on Unsplash",
+    "name": "Field Notes Hoodie",
+    "price_label": "$98",
+    "primary_image": "https://images.unsplash.com/photo-1651371979536-94e306e2fd50?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+    "slug": "field-notes-hoodie",
+    "summary": "Soft goods layout that still feels premium and deliberate."
+  },
+  "studio-everyday-pack": {
+    "badge": "New arrival",
+    "description": "A structured bag template for showing specs, context, and campaign-driven supporting copy.\n\nIt is useful when a starter needs to demonstrate more than a simple card grid.",
+    "featured": true,
+    "gallery": [
+      "https://images.unsplash.com/photo-1653491239842-ad464d06c926?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+      "https://images.unsplash.com/photo-1653491239842-ad464d06c926?auto=format&fit=crop&fm=jpg&q=80&w=900"
+    ],
+    "highlights": [
+      "Structured carry profile",
+      "Editorial-ready merchandising",
+      "Dense collection card support"
+    ],
+    "image_alt": "Black backpack hanging against a white wall.",
+    "image_credit_href": "https://unsplash.com/photos/a-black-backpack-hanging-on-a-white-wall-7TJO_T1SP_E",
+    "image_credit_label": "Photography: Sarah Noltner on Unsplash",
+    "name": "Studio Everyday Pack",
+    "price_label": "$140",
+    "primary_image": "https://images.unsplash.com/photo-1653491239842-ad464d06c926?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+    "slug": "studio-everyday-pack",
+    "summary": "A carry system starter product for denser catalog pages and strong PDP rhythm."
+  }
+}

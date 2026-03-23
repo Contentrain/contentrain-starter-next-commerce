@@ -1,0 +1,27 @@
+{
+  "id": "next-commerce",
+  "framework": "next",
+  "category": "commerce",
+  "visual_family": "commerce-system",
+  "theme": "atlas_commerce",
+  "deploy_targets": ["vercel"],
+  "models": [
+    "site-settings",
+    "navigation",
+    "footer",
+    "seo-defaults",
+    "product",
+    "catalog-collection",
+    "promo-campaign",
+    "testimonial",
+    "faq-item"
+  ],
+  "sections": [
+    "promo_strip_block",
+    "hero_block",
+    "product_grid_block",
+    "testimonial_grid_block",
+    "faq_block"
+  ]
+}
+

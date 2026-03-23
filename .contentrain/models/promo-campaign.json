@@ -1,0 +1,32 @@
+{
+  "domain": "commerce",
+  "fields": {
+    "end_at": {
+      "type": "datetime"
+    },
+    "href": {
+      "type": "string"
+    },
+    "start_at": {
+      "type": "datetime"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "theme": {
+      "options": [
+        "light",
+        "dark",
+        "accent"
+      ],
+      "type": "select"
+    },
+    "title": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  "i18n": true,
+  "id": "promo-campaign",
+  "kind": "collection"
+}

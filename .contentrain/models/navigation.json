@@ -1,0 +1,36 @@
+{
+  "domain": "system",
+  "fields": {
+    "announcement_label": {
+      "type": "string"
+    },
+    "cta_href": {
+      "type": "string"
+    },
+    "cta_label": {
+      "type": "string"
+    },
+    "items": {
+      "items": {
+        "fields": {
+          "emphasis": {
+            "type": "boolean"
+          },
+          "href": {
+            "required": true,
+            "type": "string"
+          },
+          "label": {
+            "required": true,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "i18n": true,
+  "id": "navigation",
+  "kind": "singleton"
+}

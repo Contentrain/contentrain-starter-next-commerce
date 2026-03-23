@@ -1,0 +1,42 @@
+{
+  "domain": "system",
+  "fields": {
+    "blurb": {
+      "type": "text"
+    },
+    "columns": {
+      "items": {
+        "fields": {
+          "links": {
+            "items": {
+              "fields": {
+                "href": {
+                  "required": true,
+                  "type": "string"
+                },
+                "label": {
+                  "required": true,
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "title": {
+            "required": true,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "legal_notice": {
+      "type": "string"
+    }
+  },
+  "i18n": true,
+  "id": "footer",
+  "kind": "singleton"
+}

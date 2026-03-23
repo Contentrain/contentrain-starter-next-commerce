@@ -1,0 +1,26 @@
+{
+  "domain": "system",
+  "fields": {
+    "default_locale": {
+      "required": true,
+      "type": "string"
+    },
+    "og_image": {
+      "type": "image"
+    },
+    "site_name": {
+      "required": true,
+      "type": "string"
+    },
+    "site_tagline": {
+      "type": "text"
+    },
+    "theme_name": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  "i18n": true,
+  "id": "site-settings",
+  "kind": "singleton"
+}

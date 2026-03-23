@@ -1,0 +1,242 @@
+@import "../styles/tokens.css";
+
+:root {
+  --page-width: min(76rem, calc(100vw - 2rem));
+}
+
+html {
+  background:
+    radial-gradient(circle at top left, rgba(31, 94, 255, 0.11), transparent 28%),
+    radial-gradient(circle at top right, rgba(255, 122, 0, 0.12), transparent 24%),
+    var(--ct-color-bg);
+  color: var(--ct-color-text);
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.shell {
+  width: var(--page-width);
+  margin: 0 auto;
+}
+
+.header,
+.footer,
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header,
+.footer {
+  padding: 1.4rem 0;
+}
+
+.brand,
+.hero h1,
+.section h2 {
+  font-family: "Sora", "Avenir Next", sans-serif;
+}
+
+.brand {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 1.5rem;
+  padding: 4rem 0 2rem;
+}
+
+.hero h1 {
+  margin: 0;
+  max-width: 10ch;
+  font-size: clamp(3.1rem, 7vw, 5.3rem);
+  line-height: 0.93;
+  letter-spacing: -0.07em;
+}
+
+.hero p,
+.muted {
+  color: var(--ct-color-muted);
+  line-height: 1.75;
+}
+
+.panel,
+.product-card,
+.quote-card {
+  border: 1px solid var(--ct-color-border);
+  border-radius: 1.7rem;
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: var(--ct-shadow-soft);
+}
+
+.panel,
+.product-card,
+.quote-card {
+  padding: 1.35rem;
+}
+
+.product-media,
+.gallery-media {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 1.25rem;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.product-media {
+  aspect-ratio: 4 / 5;
+}
+
+.gallery-media {
+  aspect-ratio: 1 / 1;
+  margin-bottom: 0;
+}
+
+.button,
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+}
+
+.button {
+  padding: 0.82rem 1.2rem;
+  background: var(--ct-color-text);
+  color: white;
+}
+
+.text-link {
+  color: var(--ct-color-primary);
+  font-weight: 600;
+}
+
+.badge {
+  padding: 0.35rem 0.7rem;
+  background: rgba(31, 94, 255, 0.12);
+  color: var(--ct-color-primary);
+  font-size: 0.8rem;
+}
+
+.section {
+  padding: 2rem 0 0;
+}
+
+.section h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  letter-spacing: -0.05em;
+}
+
+.grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+.gallery-grid,
+.highlight-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}
+
+.bullet-list {
+  margin: 0 0 1rem;
+  padding-left: 1rem;
+  color: var(--ct-color-muted);
+  line-height: 1.6;
+}
+
+.chip-list,
+.field-stack {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.field-stack {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.field-chip {
+  display: inline-flex;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(31, 94, 255, 0.1);
+  color: var(--ct-color-primary);
+  font-size: 0.82rem;
+}
+
+.card-top {
+  margin-bottom: 0.75rem;
+}
+
+.price {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.footer {
+  align-items: flex-start;
+}
+
+.footer-copy,
+.footer-columns,
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-copy,
+.footer-links {
+  flex-direction: column;
+}
+
+.footer-columns {
+  flex-wrap: wrap;
+}
+
+.footer-column strong {
+  display: block;
+  margin-bottom: 0.65rem;
+  color: var(--ct-color-text);
+}
+
+@media (max-width: 820px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .header,
+  .footer,
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-columns {
+    width: 100%;
+  }
+}
