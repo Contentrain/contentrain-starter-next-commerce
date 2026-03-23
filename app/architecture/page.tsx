@@ -16,9 +16,6 @@ type ModelSchema = {
 
 async function getArchitecture() {
   const rootDir = process.cwd();
-  const starterConfig = JSON.parse(
-    await readFile(path.join(rootDir, "contentrain.starter.json"), "utf8"),
-  ) as { domains: string[] };
   const modelDir = path.join(rootDir, ".contentrain", "models");
   const modelFiles = (await readdir(modelDir)).sort();
   const models = await Promise.all(
@@ -26,8 +23,11 @@ async function getArchitecture() {
       JSON.parse(await readFile(path.join(modelDir, file), "utf8")) as ModelSchema,
     ),
   );
+  const domains = [...new Set(models.map((model) => model.domain))].sort((left, right) =>
+    left.localeCompare(right, "en"),
+  );
 
-  return starterConfig.domains.map((domain) => ({
+  return domains.map((domain) => ({
     domain,
     models: models.filter((model) => model.domain === domain),
   }));

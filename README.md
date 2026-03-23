@@ -17,8 +17,6 @@ pnpm install
 pnpm dev
 ```
 
-From the monorepo root you can also run `pnpm dev:next-commerce`.
-
 ## Commands
 
 - `pnpm dev`
