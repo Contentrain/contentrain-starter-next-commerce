@@ -1,0 +1,23 @@
+{
+  "terms": {
+    "contentrain": {
+      "en": "Contentrain"
+    },
+    "contentrain-docs": {
+      "en": "docs.contentrain.io"
+    },
+    "contentrain-mcp": {
+      "en": "Contentrain MCP"
+    },
+    "contentrain-sdk": {
+      "en": "Contentrain SDK"
+    },
+    "contentrain-studio": {
+      "en": "Contentrain Studio"
+    },
+    "starter-library": {
+      "en": "Contentrain Next Commerce"
+    }
+  },
+  "version": 1
+}

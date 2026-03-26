@@ -15,7 +15,7 @@
     "deploy:vercel": "next build"
   },
   "dependencies": {
-    "@contentrain/query": "^5.0.2",
+    "@contentrain/query": "^5.1.0",
     "next": "^15.5.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
@@ -24,7 +24,7 @@
     "@types/node": "^24.4.0",
     "@types/react": "^19.1.12",
     "@types/react-dom": "^19.1.9",
-    "contentrain": "^0.2.3",
+    "contentrain": "^0.3.1",
     "typescript": "^5.9.2"
   },
   "imports": {
