@@ -4,6 +4,10 @@
 
 Commerce starter for campaigns, collections, and product detail storytelling.
 
+![Contentrain Next Commerce cover](./media/cover.png)
+
+![Contentrain Next Commerce preview](./media/preview.gif)
+
 ## Contentrain Ecosystem
 
 - SDK and CLI: [ai.contentrain.io/packages/sdk.html](https://ai.contentrain.io/packages/sdk.html)
