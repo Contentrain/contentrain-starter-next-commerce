@@ -12,7 +12,7 @@
     "start": "next start",
     "check": "tsc --noEmit -p tsconfig.check.json",
     "contentrain:generate": "contentrain generate",
-    "deploy:vercel": "next build"
+    "deploy:netlify": "next build"
   },
   "dependencies": {
     "@contentrain/query": "^5.1.0",

@@ -46,7 +46,7 @@ export default function HomePage() {
             <Link href={navigation.cta_href ?? "/products/atlas-travel-jacket"} className="button">
               {navigation.cta_label ?? "Open flagship PDP"}
             </Link>
-            <span className="muted">Vercel-first App Router structure</span>
+            <span className="muted">Netlify-ready App Router structure</span>
           </div>
         </div>
 

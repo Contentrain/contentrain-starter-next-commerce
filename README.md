@@ -23,7 +23,15 @@ pnpm dev
 - `pnpm check`
 - `pnpm build`
 - `pnpm start`
+- `pnpm deploy:netlify`
 - `pnpm contentrain:generate`
+
+## Demo routes
+
+- `/`
+- `/collections/featured-collection`
+- `/products/atlas-travel-jacket`
+- `/architecture`
 
 ## Contentrain
 
@@ -35,5 +43,6 @@ pnpm dev
 
 ## Deploy
 
-- Vercel: `pnpm deploy:vercel`
-- Primary deployment target: Vercel
+- Netlify build command: `pnpm deploy:netlify`
+- Netlify publish directory: framework-managed
+- Keep the publish directory empty in the Netlify UI and let the Next.js runtime be detected automatically
