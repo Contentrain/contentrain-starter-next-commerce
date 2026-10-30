@@ -1,5 +1,6 @@
 {
   "domain": "system",
+  "title_field": "announcement_label",
   "fields": {
     "announcement_label": {
       "type": "string"

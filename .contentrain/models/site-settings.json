@@ -1,5 +1,6 @@
 {
   "domain": "system",
+  "title_field": "site_name",
   "fields": {
     "default_locale": {
       "required": true,

@@ -1,5 +1,6 @@
 {
   "domain": "system",
+  "title_field": "legal_notice",
   "fields": {
     "blurb": {
       "type": "text"
