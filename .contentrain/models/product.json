@@ -1,5 +1,6 @@
 {
   "domain": "commerce",
+  "title_field": "name",
   "fields": {
     "badge": {
       "type": "string"

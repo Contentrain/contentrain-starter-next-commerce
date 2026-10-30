@@ -1,5 +1,6 @@
 {
   "domain": "marketing",
+  "title_field": "question",
   "fields": {
     "answer": {
       "required": true,

@@ -1,5 +1,6 @@
 {
   "domain": "marketing",
+  "title_field": "person_name",
   "fields": {
     "avatar": {
       "type": "image"
