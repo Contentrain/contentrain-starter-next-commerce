@@ -15,7 +15,7 @@ the generated client live in git next to the code, and every change is a reviewa
 - Statically generated product pages (`/products/[slug]`) with gallery, highlights and image credits.
 - Statically generated collection pages (`/collections/[slug]`) that resolve their products by relation.
 - Site chrome (navigation, footer, SEO defaults, site settings) read from singletons.
-- An `/architecture` page that explains how the starter is wired.
+- An `/architecture` page that lists every model by domain, read from `.contentrain/models/`.
 
 Every page reads content in React Server Components through the generated `#contentrain` client
 (`@contentrain/query`). The queries are synchronous, with no runtime API calls.
