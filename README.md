@@ -1,5 +1,6 @@
-<!-- cover -->
-![Contentrain Next Commerce cover](./media/cover.png)
+<p align="center"><img src=".github/cover.png" alt="Contentrain Next.js commerce starter — content in Git" width="100%"></p>
+
+![Contentrain Next Commerce screenshot](./media/cover.png)
 
 # Contentrain Next Commerce
 
@@ -73,10 +74,15 @@ Any host that runs Next.js works the same way (`pnpm build`, then `pnpm start`).
 
 ## Contentrain
 
+Contentrain has four parts: the open-source tools, Studio, Migrate and Bridge.
+
 - Packages, CLI and agent tooling: [ai.contentrain.io](https://ai.contentrain.io)
 - Next.js guide: [ai.contentrain.io/guides/frameworks#next-js-app-router](https://ai.contentrain.io/guides/frameworks#next-js-app-router)
 - Query SDK: [ai.contentrain.io/packages/sdk](https://ai.contentrain.io/packages/sdk)
 - Contentrain Studio: [contentrain.io/studio](https://contentrain.io/studio)
+- Open-source tools (MIT): [github.com/Contentrain/ai](https://github.com/Contentrain/ai)
+- Migrate, WordPress to Astro: [migrate.contentrain.io](https://migrate.contentrain.io)
+- Bridge, a free WordPress plugin that exports content as a Contentrain store: [github.com/Contentrain/wordpress-bridge](https://github.com/Contentrain/wordpress-bridge)
 
 ## License
 
